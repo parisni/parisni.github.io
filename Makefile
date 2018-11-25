@@ -1,5 +1,5 @@
 build:
-	pandoc -i index.rst -o docs/index.html
+	pandoc -i index.rst -o index.html
 deploy:
 	git add -A
 	git commit -m "update"
